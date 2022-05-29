@@ -1,0 +1,353 @@
+.body{background-color: #f6f6f6;}
+/* .container .image{
+    z-index:1; 
+     position:fixed;
+} */
+
+*{
+    margin: 0 auto;
+}
+.container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    display: flex;
+}
+.container .navbar{
+    margin-top: 10px;
+}
+.container .navbar ul{
+    display: flex;
+}
+.container ul li:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+.container .navbar ul li a{
+    color: black;
+    text-decoration: none;
+    margin-left: 70px;
+}
+.container .navbar ul  a:hover{
+    color: red;
+}
+.navbar .contact a{
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    background-color:red;
+    color: white;
+}
+.navbar .contact:hover{
+    opacity: 0.5;
+}
+.body{
+    display: flex;
+    /* margin-top: 40px; */
+}
+.body .section{
+    padding-top: 150px;
+}
+.body .image_2{
+    padding-bottom: 10px;
+}
+.body .section .tel{
+    color: red;
+    text-decoration: none;
+}
+.body .section .tel:hover{
+    color: green;
+}
+.body .section .click{
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid red; 
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+    .body .section .click:hover{
+        opacity: 0.5;
+    }
+.section_1 .photo_logo img{
+    width: 5%;
+}
+.section_1 .header h1{
+    font-size: large;
+    color:red
+}
+.section_1 .header{
+    margin-right: 20%;
+}
+.section_1 .faq img{
+    width: 5%;
+    margin-left: 95%;
+}
+.section_1{
+    display: flex;
+}
+.section_2{
+    border: 1px solid #f6f6f6;
+    margin-left: 40%;
+    width: 15%;
+    background-color:#f6f6f6;;
+}
+.section_2 .title h1{
+    padding: 10px;
+}
+.section_2 .p{
+    text-align: center;
+}
+.section_2 .card_1 img{
+    width: 30%;
+    padding-top: 10px;
+    padding-left: 10px;
+    /* background-color: white; */
+}
+.box{
+    display: flex;
+}
+.box .first_card{
+    background-color: #f6f6f6;
+}
+.box .second_card{
+    background-color: #f6f6f6;
+}
+.box .section_3 .first_card .card_2 img{
+    width: 30%;
+} 
+.box .section_3{
+     margin-right: 5%;
+     margin-left: 5%;
+} 
+.box .first_card{
+    border: 1px solid #f6f6f6;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+} 
+.box .first_card .header_2 h1{
+    padding: 10px;
+    font-size: 25px;
+}
+.box .second_card{
+    border: 1px solid #f6f6f6;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.box .second_card .card_3 img{
+    width: 30%;
+}
+.box .second_card .header_3 h1{
+    padding: 10px;
+    font-size: 25px;
+}
+.box .section_4{
+        margin-right: 100%;
+}
+.section_4 .third_card{
+    text-align: center;
+    border: 1px solid #f6f6f6;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.section_4 .third_card .header_4 h1{
+    padding: 10px;
+}
+.section_4 .third_card .card_4 img{
+    width: 30%;
+}
+.section_4 .fourth_card{
+    text-align: center;
+    border: 1px solid #f6f6f6;
+    padding-bottom: 50px;
+}  
+.section_4 .fourth_card .card_5 img{
+    width: 30%;
+}
+.section_4 .third_card{
+    background-color: #f6f6f6;
+}
+.section_4 .fourth_card{background-color: #f6f6f6;}
+.section_5{
+    display: flex;
+}
+.section_5 .card_6{
+    padding-left: 25%;
+}
+.section_5 .header_5{
+    margin-top: 3%;
+    /* margin-right: 10%; */
+}
+.section_5 .header_5{
+    width: 30%;
+}
+.section_5 .header_5 h3{
+    margin-bottom: 10%;
+    color: red;
+}
+.section_5 .header_5 h1{
+    margin-bottom: 5%;
+    /* font-size: 25px; */
+}
+.section_6{
+    display: flex;
+    padding: 5%;
+    background-color: red;
+}
+.section_6 .left_side{
+    margin-left: 25%;
+}
+.section_6 .left_side h1{
+    padding-bottom: 5%;
+    color: white;
+}
+.section_6 .left_side p{
+    color: white;
+}
+.section_6 .right_side{
+    margin-right: 30%;
+    margin-top: 2%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 5px;
+}
+.section_6 .right_side a{
+    text-decoration: none;
+    color: red;
+}
+.section_6 .right_side:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    opacity: 0.5;
+}
+.section_7{
+    text-align: center;
+}
+.section_7 .top h3{
+    margin-bottom: 1.5%;
+    color: red;
+} 
+.section_7 .top h1{
+    font-size: 30px;
+    width: 20%;  
+}
+.section_8 .card_7{
+    display: flex;
+}
+.section_8{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+ .section_8 .card_7 .horizontal{
+    /* padding-left: 15%; */
+    width: 50%;
+    padding-right: 10%;
+}
+.section_8 .card_7 .vertical{
+    /* padding-right: 18%; */
+    width: 40%;
+} 
+.section_9{
+    background-color: #f6f6f6;
+}
+.section_9 .obshiy{
+    display: flex;
+}
+.section_9 .sarlavha{
+    display: block;
+}
+.section_9 .obshiy{
+    margin-top:2%;
+}
+.section_9 .obshiy .birinchi{
+    margin-left: 5%;
+}
+.section_9 .obshiy .ikkinchi{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.section_9 .obshiy .uchinchi{
+    margin-right: 10%;   
+}
+.section_9 .sarlavha{
+    margin-left: 5%;
+}
+.section_9 .sarlavha h3{
+    padding-top: 5%;
+    margin-bottom: 5%;
+    color: red;
+}
+
+.section_9 .obshiy a{
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+.section_9 .obshiy a:hover{
+   
+    opacity: 0.5;
+}
+.section_9 .obshiy img:hover{
+     transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+.section_10{
+    display: flex;
+}
+.section_10 .birinchi_yarmi{
+    background-color: #f6f6f6;
+    width: 40%;
+}
+.section_10 .birinchi_yarmi img{
+    margin-top: 5%;
+}
+.section_10 .birinchi_yarmi .birinchi_p{
+    color: red;
+}
+.section_10 .ikkinchi_yarmi{
+    width: 40%;
+    background-color: #f6f6f6;
+}
+.section_10 .ikkinchi_yarmi img{
+    margin-top: 5%;
+}
+.section_10 .ikkinchi_yarmi .ikkinchi_p{
+    color: red;
+}
+.footer_1{
+    text-align: center;
+}
+.footer_1 p{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.footer_1 a{
+    text-decoration: none;
+    background-color: red;
+    padding: 1%;
+    border-radius: 5px;
+    color: white;
+}
+.footer_1 a:hover{
+   opacity: 0.5;
+}
+.footer_2{
+    display: flex;
+}
+.footer_2 .chap_taraf img{
+    margin-bottom: 10%;
+}
+.footer_2 .chap_taraf .raqam{
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+.footer_2 .ortasi p{
+    padding: 15%;
+}
+.footer_2 .ong_taraf p{
+    padding: 5%;
+}
